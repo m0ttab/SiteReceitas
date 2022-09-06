@@ -1,0 +1,84 @@
+#searchbar{
+    border-radius: 10px;
+     width: 100%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+     font-size: large;
+     color: white;
+     background: #b94d2c;
+     opacity: 90%;
+  }
+  
+  #datalistOptions{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+  
+  .search{
+  display: list-item;    
+  } 
+  
+  .container_page {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;  
+  }
+
+  .limiter {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .wrap_div {
+    width: 60%;
+    height: 12%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 40px 30px 40px;
+    position: absolute;
+  
+    background: #b94d2c;
+    opacity: 90%;
+  }  
+
+  .wrap-cadastro {
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    background: transparent;
+  }
+
+  .cadastro-form {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 90%;
+  }
+
+  .checkbox {
+    position: absolute;
+    display: block;
+    width: 15%;
+    height: 15%;
+    top: 30%;
+    left: 5%;
+  }
+
+  input#searchbar::placeholder {
+      color: white;
+  }
