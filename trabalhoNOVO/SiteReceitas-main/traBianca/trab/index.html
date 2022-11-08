@@ -26,7 +26,7 @@ crossorigin="anonymous"></script>
           <a class="navbar-brand" href="index.html" style="color: #b94d2c;">Página Inicial</a>
           <a class="navbar-brand" href="todas_receitas.php" style="color: #b94d2c;">Todas as Receitas</a>
           <a class="navbar-brand" href="add_receita.html" style="color: #b94d2c;">Adicionar Receita</a>
-          <a class="navbar-brand" href="#" style="color: #b94d2c;">Suporte</a>
+          <a class="navbar-brand" href="suporte.html" style="color: #b94d2c;">Suporte</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" style="color: #b94d2c;"> Minha Conta <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,7 +38,7 @@ crossorigin="anonymous"></script>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalPerfil" data-bs-whatever="@mdo" style="color: white;">Meu Perfil</button>
+                  <a class="nav-link" href="perfil_usuario.html" style="color: white;">Meu Perfil</a>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalListaDesejo" data-bs-whatever="@mdo" style="color: white;">Lista de Desejos</button>
@@ -48,6 +48,9 @@ crossorigin="anonymous"></script>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalMinhasReceitas" data-bs-whatever="@mdo" style="color: white;">Minhas Receitas</button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="avaliar.html" style="color: white;">Avaliar</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="login.html" style="color: white;">Sair</a>
@@ -97,43 +100,6 @@ crossorigin="anonymous"></script>
                       <li class="list-group-item"><a>receita</a></li>
                       </ol>
                   </form>
-                </div>
-                <div class="modal-footer">
-
-                      </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modalPerfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Meu Perfil</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Nickname</th>
-                            <th scope="col">País</th>
-                            <th scope="col">Preferência Alimentar</th>
-                            <th scope="col">Condição Alimentar</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Bianca</td>
-                            <td>@m0ttaB</td>
-                            <td>Brasil-BR</td>
-                            <td>Doce</td>
-                             <td>Intolerante a lactose</td>
-                          </tr>
-                        </tbody>
-                      </table>
                 </div>
                 <div class="modal-footer">
 
