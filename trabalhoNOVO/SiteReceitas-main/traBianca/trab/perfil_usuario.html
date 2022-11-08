@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Site Receitas</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"></script>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/perfil.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="color: #b94d2c;">Página Inicial</a>
+          <a class="navbar-brand" href="todas_receitas.php" style="color: #b94d2c;">Todas as Receitas</a>
+          <a class="navbar-brand" href="add_receita.html" style="color: #b94d2c;">Adicionar Receita</a>
+          <a class="navbar-brand" href="suporte.html" style="color: #b94d2c;">Suporte</a>
+        </div>
+      </nav>
+
+          <div class="limiter">
+            <div class="container-page" style="background-image: url('images/bg-02.jpg');">
+              <div class="wrap-login100 p-t-30 p-b-50">
+                <form class="search-form validate-form p-b-33 p-t-5" method="POST" action="pesquisar.php">
+                    <span class="login100-form-title p-b-41">
+                        <img href="images/icons/user.png" width="30%" height="30%">
+                    </span>
+              <div class="row">
+                  <div class="col">
+                      <div class="wrap-input100 validate-input" data-validate = "Nome">
+                        <label for="nome" class="input100" type="text">Nome</label>
+                          <input class="input100" type="text" name="nome">
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="wrap-input100 validate-input" data-validate="Nickname/Autor">
+                        <label for="nickname" class="input100" type="text">Nickname</label>
+                          <input class="input100" type="text" name="nickname">
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="wrap-input100 validate-input" data-validate = "Email">
+                      <label for="email" class="input100" type="text">E-mail</label>
+                        <input class="input100" type="text" name="email">
+                    </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                    <div class="wrap-input100 validate-input" data-validate = "Pais">
+                      <label for="pais" class="input100" type="text">País</label>
+                      <textarea class="input100" name="pais"></textarea>
+                    </div>
+                </div>
+                <div class="col">
+                        <div class="wrap-input100 validate-input" data-validate="Condicao alimentar especial">
+                          <label for="cond" class="input100" type="text">Condição Alimentar Especial</label>
+                          <textarea class="input100" name="cond"></textarea>
+                        </div>
+                </div>
+                <div class="col">
+                    <div class="wrap-input100 validate-input" data-validate="Preferencia Alimentar">
+                      <label for="pref" class="input100" type="text">Preferência Alimentar</label>
+                        <input class="input100" type="text" name="pref">
+                    </div>
+                </div> 
+            </div>
+
+            <div>
+                <label></label>
+            </div>
+  </form>
+              </div>
+            </div>
+          </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+
+</html>    
