@@ -145,6 +145,10 @@ crossorigin="anonymous"></script>
                 <form class="search-form validate-form p-b-33 p-t-5" method="POST" action="pesquisar.php">
         
                   <div class="barra">
+                    <select id="filter" class="filter" name="filter" src="images/icons/filter.png" width="50%" height="50%">
+                      <option>Tudo</option>
+                      <option>Apenas com ingredientes</option>
+                    </select>
                     <input id="searchbar" onkeyup="search()" type="search" list="datalistOptions" name="search"
                     placeholder="O que têm na sua geladeira?">
                     <button type="search" class="btn_search"><img src="images/icons/pesquisa.png" width="50%" height="50%"></button>
