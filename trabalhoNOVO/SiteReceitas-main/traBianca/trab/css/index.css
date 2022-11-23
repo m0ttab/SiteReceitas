@@ -118,3 +118,8 @@
     border-radius: 10px;
     background-color: transparent;
   }
+
+  #filter {
+    width: 5%;
+    height: 1%;
+  }
